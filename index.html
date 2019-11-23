@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Piano 🎹</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Always put your CSS at the end, so it has chance to override settings of external libraries. -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="piano">
+        <div class="white-key" data-key="c4">
+            <span class="key">c4</span>
+        </div>
+        <div class="black-key db4-key" data-key="db4">
+          <span class="key">db4</span>
+        </div>
+        <div class="white-key" data-key="d4">
+          <span class="key">d4</span>
+        </div>
+        <div class="black-key eb4-key" data-key="eb4">
+          <span class="key">eb4</span>
+        </div>
+        <div class="white-key" data-key="e4">
+          <span class="key">e4</span>
+        </div>
+        <div class="white-key" data-key="f4">
+          <span class="key">f4</span>
+        </div>
+        <div class="black-key gb4-key" data-key="gb4">
+          <span class="key">gb4</span>
+        </div>
+        <div class="white-key" data-key="g4">
+          <span class="key">g4</span>
+        </div>
+        <div class="black-key ab4-key" data-key="ab4">
+          <span class="key">ab4</span>
+        </div>
+        <div class="white-key" data-key="a4">
+          <span class="key">a4</span>
+        </div>
+        <div class="black-key bb4-key" data-key="bb4">
+          <span class="key">bb4</span>
+        </div>
+        <div class="white-key" data-key="b4">
+          <span class="key">b4</span>
+        </div>
+        <div class="white-key" data-key="c5">
+          <span class="key">c5</span>
+        </div>
+        <div class="black-key db5-key" data-key="db5">
+          <span class="key">db5</span>
+        </div>
+        <div class="white-key" data-key="d5">
+          <span class="key">d5</span>
+        </div>
+        <div class="black-key eb5-key" data-key="eb5">
+          <span class="key">eb5</span>
+        </div>
+        <div class="white-key" data-key="e5">
+          <span class="key">e5</span>
+        </div>
+      </div>
+      <div class="controls switch">
+        <label for="showKeys" class="showKeysText">
+          Display Keys
+          <input type="checkbox" name="showKeys" class="showKeys" id="showKeys">
+          <span class="lever"></span>
+        </label>
+      </div>
+      <div class="songs">
+        <label for="HappyBirthday">
+          🎂🎂🎂 Happy Birthday Song !! 🎂🎂🎂
+          <a class="waves-effect waves-light btn" id="HappyBirthday">Play 🎹</a>
+        </label>
+        <label for="Aashiqui2">
+          💕💖💟 Aashiqui 2 Song !! 💕💖💟
+          <a class="waves-effect waves-light btn" id="Aashiqui2">Play 🎹</a>
+        </label>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
